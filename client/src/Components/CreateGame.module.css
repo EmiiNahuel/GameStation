@@ -1,0 +1,243 @@
+.divMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #000934
+}
+
+.divCont{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    background: #272530;
+}
+
+.divInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.divOne{
+    background: #000;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divTwo{
+    background-image: url('../Img/gif3.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+}
+
+label{
+    color: #999;
+    font-size: .9rem;
+}
+
+.lblName{
+    margin-top: 5%;
+    margin-right: 42%;
+}
+
+.inpName{
+    width: 19rem;
+    padding: 0.2rem;
+    border: none;
+    border-bottom: 1px solid #272530;
+    background: transparent;
+    font-size: 15px;
+    outline: none;
+    transition: all .3s;
+    color: #fff;
+    
+}
+.inpName:focus{
+    border-bottom: 2px solid #000934;
+}
+.inpName::placeholder{
+    font-size: 14px;
+    opacity: 0;
+    transition: all .3s;
+}
+.inpName:focus::placeholder{
+    opacity: 1;
+}
+
+.lblImagen{
+    margin-top: 5%;
+    margin-right: 42%;
+}
+
+.inpImagen{
+    width: 19rem;
+    padding: 0.2rem;
+    border: none;
+    border-bottom: 1px solid #272530;
+    background: transparent;
+    font-size: 15px;
+    outline: none;
+    transition: all .3s;
+    color: #fff;
+    
+}
+.inpImagen:focus{
+    border-bottom: 2px solid #000934;
+}
+.inpImagen::placeholder{
+    font-size: 14px;
+    opacity: 0;
+    transition: all .3s;
+}
+.inpImagen:focus::placeholder{
+    opacity: 1;
+}
+
+.releaseDate{
+    display: flex;
+    flex-direction: row;
+    width: 49.5%;
+}
+
+.contRating{
+    display: flex;
+    flex-direction: column;
+}
+
+.lblDate{
+    margin-top: 5%;
+}
+
+.inpDate{
+    margin-top: 1%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.lblRating{
+    margin-top: 7%;
+}
+
+.selectRating{
+    margin-top: 2%;
+    width: 8rem;
+    height: 28px;
+    outline: none;
+    background: transparent;
+    color: #272530;
+    border-radius: 10px;
+}
+
+.genrePlatforms{
+    width: 49.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contGenre{
+    display: flex;
+    flex-direction: column;
+}
+
+.contPlatforms{
+    display: flex;
+    flex-direction: column; 
+}
+
+.lblGenres{
+    margin-top: 18%;
+}
+
+.selectGenre{
+    width: 8.8rem;
+    height: 27px;
+    outline: none;
+    background: transparent;
+    color: #272530;
+    border-radius: 10px;
+}
+
+.lblPlatforms{
+    margin-top: 18%;
+}
+
+.selectPlatforms{
+    width: 8rem;
+    height: 27px;
+    outline: none;
+    background: transparent;
+    color: #272530;
+    border-radius: 10px;
+}
+
+.contDescription{
+    width: 49.5%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.texta{
+    margin-top: 2%;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #272530 ;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+}
+.texta:focus{
+    border: 2px solid #000934;
+}
+.texta::placeholder{
+    font-size: 14px;
+    opacity: 0;
+    transition: all .3s;
+}
+.texta:focus::placeholder{
+    opacity: 1;
+}
+
+.contBtns{
+    display:flex;
+    flex-direction: row;
+}
+
+.btnCreate{
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: .1em 0.1em 0.05em black;
+    background: #000934;
+    transition: background .3s linear;
+}
+.btnCreate:hover{
+    background: #58ecff;
+}
+
+.closeBtn{
+    font-size: 2rem;
+    position:absolute;
+    top: 6%;
+    right: 5%;
+    outline: none;
+}
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.divPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Img/juegosss.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-shadow: .1em 0.1em 0.05em black;
+}
+
+.btnStart{
+    position: relative;
+    padding: 1em 1.5em;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 250%;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    color: var(--secondary-color);
+    text-shadow: .1em 0.1em 0.05em black;
+}
+
+.btnStart::after,
+.btnStart::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border: 2px solid;
+    border-radius: 2px;
+    transition: all .6s ease;
+    width: 20%;
+    height: 20%;
+}
+
+.btnStart::after{
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: var(--secondary-color);
+    border-right-color: var(--secondary-color);
+}
+
+.btnStart::before{
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: var(--secondary-color);
+    border-left-color: var(--secondary-color);
+}
+
+.btnStart:hover:after,
+.btnStart:hover:before{
+    border-bottom-color: var(--secondary-color);
+    border-right-color: var(--secondary-color);
+    border-top-color:var(--secondary-color);
+    border-left-color: var(--secondary-color);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

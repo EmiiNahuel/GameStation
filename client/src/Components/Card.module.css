@@ -1,0 +1,48 @@
+.divCard{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    box-shadow: -1px 9px 9px 0px rgba(0,0,0,0.75);
+    position: relative;
+    height: 340px;
+}
+
+.titleGame{
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    margin-top: 4%;
+    text-shadow: .1em 0.1em 0.05em black;
+    z-index: 2;
+}
+
+.rating{
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    text-shadow: .1em 0.1em 0.05em black;
+    z-index: 2;
+}
+
+.genres{
+    position: relative;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    text-shadow: .1em 0.1em 0.05em black;
+    z-index: 2;
+}
+
+.divCard img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: all .6s linear;
+    transition-delay: .3s;
+    cursor: pointer;
+}
+
+.divCard img:hover{
+    transform: scale(1,1.7);
+    transform-origin: top;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
